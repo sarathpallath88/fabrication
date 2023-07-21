@@ -134,11 +134,11 @@
     <div class="row l m-3" data-aos="fade-right">
       <div class="col-lg-2"></div>
       <div class="col-lg-8">
-        <form name="" id="" action="contact_process.php" method="post">
+        <form name="" id="submit-form" action="" method="post">
           <div class="control-group form-group">
             <div class="controls col-md-12 mt-2">
               <label class="text-capitalize">Full Name:</label>
-              <input type="text" class="form-control" id="name" required
+              <input type="text" class="form-control" id="fname" name="name" required
                 data-validation-required-message="Please enter your name." />
               <p class="help-block"></p>
             </div>
@@ -146,21 +146,21 @@
           <div class="control-group form-group">
             <div class="controls col-md-12 mt-2">
               <label class="text-capitalize">Phone Number:</label>
-              <input type="text" class="form-control" id="phone" required
+              <input type="text" class="form-control" id="country" name="phone" required
                 data-validation-required-message="Please enter your phone number." />
             </div>
           </div>
           <div class="control-group form-group">
             <div class="controls col-md-12 mt-2">
               <label class="text-capitalize">Email Address:</label>
-              <input type="email" class="form-control" id="email" required
+              <input type="email" class="form-control" id="lname" name="email" required
                 data-validation-required-message="Please enter your email address." />
             </div>
           </div>
           <div class="control-group form-group mb-3">
             <div class="controls col-md-12 mt-2">
               <label class="text-capitalize">Message:</label>
-              <textarea rows="10" cols="100" class="form-control" id="message" required
+              <textarea rows="10" cols="100" class="form-control" id="subject" name="message" required
                 data-validation-required-message="Please enter your message" maxlength="999"
                 style="resize: none"></textarea>
             </div>

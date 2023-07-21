@@ -480,7 +480,7 @@ body {
     line-height: 24px;
   }
 }*/
-.carousel-item img
+/* .carousel-item img
 {
   animation: zoom-out 3s linear infinite;
 }
@@ -516,7 +516,7 @@ body {
 	display: inline-block;
 	color: #000;
 	margin-top: 15px;
-}
+} */
  #footer {
   background: #4a5562;
   padding: 0 0 30px 0;
@@ -803,7 +803,7 @@ body {
   opacity: 1;
 }
 /* gallery */
-.gallery {
+/* .gallery {
   padding-bottom: 0;
 }
 
@@ -820,7 +820,7 @@ body {
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
 }
-/* end gallery */
+end gallery */
 @media (min-width: 1024px) {
   .testimonials {
     background-attachment: fixed;
