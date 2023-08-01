@@ -1,0 +1,69 @@
+<html>
+
+<head>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+<style>
+    h1{
+  color: #fff;
+  font-size: 3.625em;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.whats-float {
+    position: fixed;
+    transform:translate(108px,0px);
+    top:25%;
+    right:0;
+    width:150px;
+    overflow: hidden;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 4px 0 0 4px;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+    vertical-align: middle
+}
+.whats-float a span {
+    color: white;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    position: absolute;
+    line-height: 16px;
+    font-weight: bolder;
+}
+
+.whats-float i {
+    font-size: 30px;
+    color: white;
+    line-height: 30px;
+    padding: 10px;
+    transform:rotate(0deg);
+    transition: all 0.5s ease-in-out;
+    text-align:center;
+
+}
+
+.whats-float:hover {
+    color: #FFFFFF;
+    transform:translate(0px,0px);
+}
+
+.whats-float:hover i  {
+    transform:rotate(360deg);
+}
+</style>
+</head>
+<div class="whats-float">
+    <a href="" target="_blank">
+        <i class="fa fa-whatsapp"></i><span>WhatsApp<br><small>+90 12 123456</small></span>
+    </a>
+</div>
+<!-- partial -->
+
+</body>
+
+</html>
